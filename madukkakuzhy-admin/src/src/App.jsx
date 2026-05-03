@@ -76,7 +76,7 @@ function App() {
   }
    const handleLogin = (e) => {
     e.preventDefault();
-    if (loginForm.username === 'aju' && loginForm.password === '9207461241') {
+    if (loginForm.username === 'doctor' && loginForm.password === 'secure123') {
       setIsAuthenticated(true);
     } else {
       alert('Invalid Credentials');
